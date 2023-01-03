@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: "Poppins", sans-serif;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #eff0f4;
+}
+
+.container-item{
+    position: relative;
+    left: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container-item .drop{
+    position: relative;
+    width: 370px;
+    height: 390px;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
+    25px 35px 20px rgba(0, 0, 0, 0.05),
+    25px 30px 30px rgba(0, 0, 0, 0.05),
+    inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 52% 48% 33% 67% / 38% 45% 55% 62% ;
+}
+
+.container-item .drop{
+    position: relative;
+    width: 370px;
+    height: 390px;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
+    25px 35px 20px rgba(0, 0, 0, 0.05),
+    25px 30px 30px rgba(0, 0, 0, 0.05),
+    inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 52% 48% 33% 67% / 38% 45% 55% 62% ;
+}
+
+.container-item .drop:hover{
+    border-radius: 50%;
+}
+
+.container-item .drop:before{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 50px;
+    left: 60px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.container-item .drop::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 100px;
+    top: 90px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 10px;
+    text-align: center;
+    padding: 20px;
+    gap: 13px;
+}
+
+.content h2{
+    position: relative;
+    color: #333;
+    font-size: 30px;
+}
+
+.content form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputinBox{
+        position: relative;
+        width: 225px;
+        box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -2px -5px 10px rgba(255,255,255,1),
+        15px 15px 10px rgba(0, 0, 0, 0.05),
+        15px 10px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+}
+
+.inputinBox::before{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65%;
+    height: 5px;
+    background: rgba(255, 255, 255,0.5);
+    border-radius: 5px;
+}
+
+
+.inputinBox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 1em;
+    padding: 10px 15px;
+}
+
+.container-item .drop .content form .inputinBox input[type="submit"]{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+.container-item .drop .content form .inputinBox:Last-child{
+    width: 120px;
+    color: #fff;
+    font-size: 20px;
+    background: #ff0f5b;
+    text-align: center;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
+    15px 15px 10px rgba(0, 0, 0, 0.05),
+    15px 10px 15px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+}
+
+.container-item .drop .content form .inputinBox:last-child:hover{
+    width: 150px;
+}
+
+
+.Forget{
+    position: relative;
+    right: 20px;
+    bottom: 0;
+    margin-top: 400px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    background: #c61dff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+    font-size:0.8em;
+    transition: 0.25s;
+    text-align: center;
+    box-shadow: inset 10px 10px 10px rgba(190, 1, 254, 0.05),
+    15px 25px 10px rgba(190, 1, 254, 0.1),
+    15px 20px 20px rgba(190, 1, 254, 0.1),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5);
+    border-radius: 29% 71% 67% 33% / 56% 49% 51% 44% ;
+}
+
+.Forget:hover{
+    border-radius: 50%;
+}
+
+.Forget::before{
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.45;
+}
+
+.signup{
+    bottom: 150px;
+    margin-top: 200px;
+    margin-left: -100px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    right: -120px;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+    font-size:0.8em;
+    transition: 0.25s;
+    text-align: center;
+    box-shadow: inset 10px 10px 10px rgba(1, 180, 255, 0.05),
+    15px 25px 10px rgba(190, 180, 255, 0.1),
+    15px 20px 20px rgba(190, 180, 255, 0.1),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.7);
+    border-radius: 83% 17% 22% 78% / 56% 53% 47% 44% ;
+    background: #362ecb;
+}
+
+.signup::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.45;
+}
+
+.signup:hover{
+    border-radius: 50%;
+}

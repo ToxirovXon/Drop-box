@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: "Poppins", sans-serif;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #eff0f4;
+}
+
+
+
+.header_name{
+    color: #fff;
+    font-size: 60px;
+    font: semibold;
+    cursor: pointer;
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+.folder{
+    color: #fff;
+    background-color: #5e97ef;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font: base;
+    border-radius: 5px;
+    width: 100px;
+    height: 55px;
+    transition: 0.9s;
+    font-family: 'Sevillana', cursive;
+    font-size: 20px;
+}
+
+
+.folder:hover{
+    border-radius:54% 46% 61% 39% / 0% 100% 0% 100%  ;
+    width: 150px;
+    background-color: #0c5ad1;
+
+}
+
+.folder_btn{
+    color: #fff;
+    background-color: #5e97ef;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font: base;
+    border-radius: 5px;
+    width: 100px;
+    height: 55px;
+    transition: 0.9s;
+    font-family: 'Sevillana', cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.folder_btn:hover{
+    width: 150px;
+    background-color: #0c5ad1;
+    border-radius: 43% 57% 36% 64% / 90% 0% 100% 10%  ;
+}
+
+
+.dropup{
+    position: relative;
+    width: 550px;
+    height: 550px;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
+    25px 35px 20px rgba(0, 0, 0, 0.05),
+    25px 30px 30px rgba(0, 0, 0, 0.05),
+    inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55% 45% 76% 24% / 86% 44% 56% 14% ;  
+}
+
+.dropup:hover{
+    border-radius: 50%;
+
+}
+
+.dropup:before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 50px;
+    left: 340px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.dropup::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 380px;
+    top: 90px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.dropForgot{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
+    25px 35px 20px rgba(0, 0, 0, 0.05),
+    25px 30px 30px rgba(0, 0, 0, 0.05),
+    inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 46% 54% 73% 27% / 68% 65% 35% 32% ;  
+}
+
+.dropForgot:hover{
+    border-radius: 50%;
+}
+
+.dropForgot:before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 40px;
+    left: 120px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.dropForgot::after{
+content: "";
+position: absolute;
+width: 15px;
+height: 15px;
+left: 120px;
+top: 90px;
+background: #fff;
+border-radius: 50%;
+opacity: 0.9;
+}
+
+.container-item .drop{
+    position: relative;
+    width: 370px;
+    height: 390px;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
+    25px 35px 20px rgba(0, 0, 0, 0.05),
+    25px 30px 30px rgba(0, 0, 0, 0.05),
+    inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 52% 48% 33% 67% / 38% 45% 55% 62% ;
+}
+
+.container-item .drop:hover{
+    border-radius: 50%;
+}
+
+.container-item .drop:before{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 50px;
+    left: 60px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.container-item .drop::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 100px;
+    top: 90px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    top: 10px;
+    text-align: center;
+    padding: 20px;
+    gap: 13px;
+}
+
+.content h2{
+    position: relative;
+    color: #333;
+    font-size: 30px;
+}
+
+.content form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox{
+        position: relative;
+        width: 225px;
+        box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -2px -5px 10px rgba(255,255,255,1),
+        15px 15px 10px rgba(0, 0, 0, 0.05),
+        15px 10px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+}
+
+.inputBox::before{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65%;
+    height: 5px;
+    background: rgba(255, 255, 255,0.5);
+    border-radius: 5px;
+}
+
+
+.inputBox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 1em;
+    padding: 10px 15px;
+}
+
+.container-item .drop .content form .inputBox input[type="submit"]{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+
+.container-item .drop .content form .inputBox:last-child:hover{
+    width: 150px;
+}
+
+
+.signupPassword{
+    bottom: 150px;
+    margin-top: 200px;
+    margin-left: -100px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    right: -120px;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background: #c61dff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+    font-size:0.8em;
+    transition: 0.25s;
+    text-align: center;
+    box-shadow: inset 10px 10px 10px rgba(1, 180, 255, 0.05),
+    15px 25px 10px rgba(190, 180, 255, 0.1),
+    15px 20px 20px rgba(190, 180, 255, 0.1),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.7);
+    border-radius: 83% 17% 22% 78% / 56% 53% 47% 44% ;
+    background: #01b4ff;
+}
+
+.signupPassword :hover{
+    border-radius: 50%;
+}
+
+.signupPassword :before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.45;
+}
+
