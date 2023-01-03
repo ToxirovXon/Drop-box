@@ -31,7 +31,6 @@ It's very simple to work.
              Upload
 
 ### The Core Team
-Aziz, Javahir, Yakub worked on the project.
 Made at Qwasar Sillicon Valley
 <span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
 <span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px'></span>
