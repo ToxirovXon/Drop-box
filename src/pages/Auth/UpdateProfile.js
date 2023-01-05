@@ -48,7 +48,7 @@ const UpdateProfile = () => {
             <div className="dropupdate">
                 <div className='content'>
                     <h2>
-                        Sign Up
+                        Update Profile
                     </h2>
                 {
                     error && (
